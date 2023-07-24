@@ -6,4 +6,4 @@ Your host should be on Debian 11 minimal, that's need minimal installations (liv
 
 `lb config && lb build`
 
-Now, the hyrbid iso file is generated in the project root and can be used with virtualbox.
+Now, the hyrbid iso file is generated in the project root and can be used with virtualbox. (~15min after on my old Pentium)
