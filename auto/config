@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --architectures "amd64" \
+    --archive-areas "main contrib non-free" \
+    --linux-packages "linux-image" \
+    --ignore-system-defaults \
+    --binary-images "iso-hybrid" \
+    --bootappend-live "boot=live components autologin username=toto" \
+    "${@}"
